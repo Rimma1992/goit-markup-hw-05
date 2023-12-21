@@ -717,20 +717,38 @@ a {
 
 }
 
-.sub_label {}
+.sub_label {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+
+
+
+}
 
 .sub-input {
     width: 264px;
     height: 40px;
+    border-radius: 4px;
     border: 1px solid #ffffff;
-    background-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin-right: 24px;
+
+    /* background-color: transparent;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
     padding-left: 16px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    color: #ffffff;
+   
+    
+    color: #ffffff; */
 
 }
 
@@ -740,23 +758,25 @@ a {
 
 
 .sub_button {
-    min-width: 165px;
-    height: 40px;
-    display: flex;
+    display: inline-flex;
+    padding: 8px 24px;
     justify-content: center;
     align-items: center;
+    gap: 16px;
+    color:#FFF;
+    text-align: center;
+    width: 165px;
+    height: 40px;
+    border-radius: 4px;
+    background: #4D5AE5;
+   
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background-color: #4D5AE5;
     border: none;
-    border-radius: 4px;
-
+ 
 }
 
-.subckribe_email {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-   
-}
