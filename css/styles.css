@@ -707,14 +707,13 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    background-color;:#4D5AE5);
-
+    color: #ffffff;
 
 }
 
 .sub_form {
     display: flex;
-    gap 24px;
+    gap:24px;
 
 }
 
@@ -746,13 +745,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-}
-
-.subckribe_email {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -761,4 +753,10 @@ a {
     border: none;
     border-radius: 4px;
 
+}
+
+.subckribe_email {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+   
 }
