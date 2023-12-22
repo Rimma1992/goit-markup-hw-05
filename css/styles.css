@@ -890,14 +890,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.form {
 
-
-
-}
 
 .form_list {
-   
+display: flex;
+flex-direction: column;
     margin-bottom: 8px;
     color: #2E2F42;
 }
@@ -925,27 +922,29 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     padding-right: 24px;
     padding-left: 24px;
-    position: relative;
- 
-        background-color: greenyellow;
+   position: relative;
+    background-color: greenyellow;
 }
 
 
 
 .form_input {
-    width: 100%;
-    height: 40px;
+    
+    width: 360px;
+    border: none;
+    height: 58px;
     font-size: 12px;
     line-height: 1.17;
     color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
     background-color: transparent;
     padding: 8px 16px;
-    outline: transparent;
+    outline:none;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
-    padding-left: 38px;
+    padding-left: 24px;
+    padding-right: 24px;
     background-color: green;
 
 }
@@ -956,15 +955,23 @@ border-color: #4D5AE5;
 
 }
 
+.form-input:focus::placeholder {
+    color:#4D5AE5;
+}
+
 
 .form_icon {
    display: flex;
-
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    cursor: pointer;
 
 }
 
 
-.form-comment {
+/* .form-comment {
     width: 100%;
     height: 120px;
     padding: 8px 16px;
@@ -983,14 +990,48 @@ border-color: #4D5AE5;
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 
 
 
-.forms_comment:focus {
+/* .forms_comment:focus {
 border-color: #4D5AE5;
+} */
+
+
+
+.mod_chek_label {
+    display: inline-flex;
+    align-items: center;
+    gap:8px;
 }
+
+
+.checkbox_style {
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    fill: transparent;
+    border:1px solid rgba(46,47,66,0.4);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier (0.4, 0, 0.2, 1), border 250ms cubic-bezier (0.4, 0, 0.2, 1), fill 250ms cubic-bezier (0.4, 0, 0.2, 1);
+}
+
+
+
+.privacy-decor {
+    color: #4d5ae5;
+    text-decoration-line: underline;
+}
+
+
+
 
 
 
@@ -1022,6 +1063,4 @@ background-color: #4D5AE5;
     background-color: #404bbf;
 
 }
-
-
 
