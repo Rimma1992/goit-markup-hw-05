@@ -980,21 +980,7 @@ border-color: #4D5AE5;
 
 
 }
-/* 
-.form-input:focus::placeholder {
-    color:#4D5AE5;
-} */ 
 
-
-/* .form_icon {
-   display: flex;
-    position: absolute;
-    top: 50%;
-    left: 12px;
-    transform: translateY(-50%);
-    cursor: pointer;
-
-} */
 
 .form_icon {
    position: absolute;
@@ -1073,6 +1059,10 @@ margin-bottom: 16px;
             border-color: #4D5AE5;
     }
 
+
+.checkbox_user_privacy {
+    margin-bottom: 24px;
+}
 
 
 
