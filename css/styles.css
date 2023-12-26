@@ -1081,22 +1081,6 @@ fill:#4D5AE5;
 border-color: #4D5AE5;
 } */
 
-.checkbox_user_privacy {
-    margin-bottom: 24px;
-}
-
-
-
-.checkbox-form:checked + .checkbox_style {
-    background-color:#4D5AE5 ;
-    border-color: #4D5AE5;
-}
-
-
-
-.checkbox-form:checked+.checkbox_style >.vector-icon {
-   opacity: 1;
-}
 
 
 .mod_chek_label {
@@ -1127,8 +1111,14 @@ border-color: #4D5AE5;
     cursor: pointer;
     stroke:rgba(46, 47, 66, 0.40);
     margin-right: 8px;
+    color: #8E8F99;
+    background-color: red;
+    
+}
 
+    
 /* 
+
     margin-right: 8px;
     justify-content: center;
     width: 16px;
@@ -1140,7 +1130,7 @@ border-color: #4D5AE5;
     border-radius: 2px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier (0.4, 0, 0.2, 1), border 250ms cubic-bezier (0.4, 0, 0.2, 1), fill 250ms cubic-bezier (0.4, 0, 0.2, 1); */
-}
+
 
 .vector-icon{
     fill:#FFFFFF;
@@ -1150,6 +1140,7 @@ border-color: #4D5AE5;
 .privacy-decor {
     color: #4d5ae5;
     text-decoration-line: underline;
+    
 }
 
 
