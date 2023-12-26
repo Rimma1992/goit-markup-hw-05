@@ -942,7 +942,7 @@ left: 16px;
     padding-left: 24px;
     padding-right: 24px;
     position: relative;
-   width: 100%;
+   
 }
 
 
@@ -1088,6 +1088,12 @@ margin-bottom: 16px;
 
 }
 
+.vector-icon {
+    fill: #FFFFFF;
+    opacity: 0;
+
+}
+
 .checkbox-form:checked + .mod_chek_label .vector-icon {
     opacity: 1;
 }
@@ -1101,11 +1107,7 @@ margin-bottom: 16px;
 
 
 
-.vector-icon{
-    fill:#FFFFFF;
-    opacity: 0;
-    
-}
+
 
 .privacy-decor {
     color: #4d5ae5;
