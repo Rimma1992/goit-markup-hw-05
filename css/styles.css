@@ -1115,15 +1115,18 @@ margin-bottom: 16px;
 
 }
 
+
+.checkbox-form:checked+.mod_chek_label>.checkbox_style {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
+
 .checkbox-form:checked + .mod_chek_label .vector-icon{
     opacity: 1;
 }
 
-.checkbox-form:checked + .mod_chek_label> .checkbox_style{
-    background-color:#404bbf;
-    border: none;
-    fill: #F4F4FD;
-}
+
 
 
 
