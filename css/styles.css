@@ -768,7 +768,7 @@ a {
     gap: 16px;
     color:#FFF;
     text-align: center;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     border-radius: 4px;
     background: #4D5AE5;
@@ -791,6 +791,7 @@ a {
 
 .sub-btn-icon {
 fill: #ffffff;
+margin-left: 16px;
 
 
 }
