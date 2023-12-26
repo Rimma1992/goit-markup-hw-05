@@ -761,7 +761,7 @@ a {
 
 
 .sub_button {
-    display: inline-flex;
+    display: flex;
     padding-left: 24px;
     justify-content: center;
     align-items: center;
@@ -818,12 +818,33 @@ margin-left: 16px;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal_container is-open{
+
+.modal_container is open{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(46,47,66,0.40);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4 0, 0.2,1);
+
+}
+
+
+
+
+/* .modal_container.is-open{
     opacity: 1;
     visibility: hidden;
     pointer-events: initial;
+
     
-}
+} */
 
 
 .modal {
@@ -1094,9 +1115,9 @@ margin-bottom: 16px;
 
 }
 
-.checkbox-form:checked + .mod_chek_label .vector-icon{
+/* .checkbox-form:checked + .mod_chek_label .vector-icon{
     opacity: 1;
-}
+} */
 
 .checkbox-form:checked + .mod_chek_label> .checkbox_style{
     background-color:#404bbf;
