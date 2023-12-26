@@ -1081,6 +1081,10 @@ fill:#4D5AE5;
 border-color: #4D5AE5;
 } */
 
+.checkbox_user_privacy {
+    margin-bottom: 24px;
+}
+
 
 
 .checkbox-form:checked + .checkbox_style {
