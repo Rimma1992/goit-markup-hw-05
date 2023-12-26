@@ -1092,7 +1092,7 @@ margin-bottom: 16px;
 
 
 .checkbox_style {
-    fill: transparent;
+  
     display: inline-flex;
     align-items: center;
     width: 16px;
@@ -1106,7 +1106,7 @@ margin-bottom: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
     border: 1px solid rgba(46, 47, 66, 0.4);
-
+    fill: transparent;
 }
 
 .vector-icon {
@@ -1115,9 +1115,9 @@ margin-bottom: 16px;
 
 }
 
-/* .checkbox-form:checked + .mod_chek_label .vector-icon{
+.checkbox-form:checked + .mod_chek_label .vector-icon{
     opacity: 1;
-} */
+}
 
 .checkbox-form:checked + .mod_chek_label> .checkbox_style{
     background-color:#404bbf;
