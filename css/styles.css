@@ -1116,7 +1116,14 @@ margin-bottom: 16px;
 }
 
 
-.checkbox-form:checked+.mod_chek_label>.checkbox_style {
+.checkbox-form:focus,
+.checkbox-form:hover + .mod_chek_label > .checkbox_style {
+    border: 1px solid #4D5AE5;
+}
+
+
+
+.checkbox-form:checked+.mod_chek_label > .checkbox_style {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
