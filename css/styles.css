@@ -969,12 +969,13 @@ left: 16px;
    
 }
 
-
+.form-input {
+    width: 100%;
+}
 
 .form-input {
     
     height: 40px;
-    width: 100%;
     border-radius: 4px;
     background-color: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
