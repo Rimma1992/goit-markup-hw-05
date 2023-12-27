@@ -957,7 +957,7 @@ left: 16px;
     letter-spacing: 0.04em;
     display: block;
     margin-bottom: 4px;
-    width: 100%;
+    
     
 }
 
@@ -992,21 +992,23 @@ border-color: #4D5AE5;
 }
 
 
-.form_icon {
-   position: absolute;
-   top: 50%;
-   left: 16px;
-   transform: translateY(-50%);
-   fill:#2E2F42;
-   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
-}
+
 
 .form-input:focus + .form_icon {
 
 fill:#4D5AE5;
 }
 
+
+.form_icon {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    fill: #2E2F42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
 .form_wrapper  {
 
 margin-bottom: 16px;
