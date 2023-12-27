@@ -816,7 +816,7 @@ margin-left: 16px;
 }
 
 
-.modal_container is open{
+/* .modal_container is open{
 
     position: fixed;
     top: 0;
@@ -830,7 +830,7 @@ margin-left: 16px;
     pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4 0, 0.2,1);
 
-}
+} */
 
 
 
@@ -903,7 +903,6 @@ left: 16px;
 .modal_text {
 
     color:#2E2F42;
-        text-align: center;
         font-family: Roboto< sans-serif;
         font-size: 16px;
         font-style: normal;
@@ -919,6 +918,8 @@ left: 16px;
 
 .modal_form {
     display: flex;
+    height: 366px;
+    width: 360px;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
