@@ -847,9 +847,7 @@ margin-left: 16px;
 
 .modal {
 position: absolute;
-padding-top: 72px;
-padding-right: 24px;
-padding-bottom: 24px;
+padding: 72px 24px 24px 24px;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%) scale(1);
