@@ -846,10 +846,6 @@ margin-left: 16px;
 
 .modal {
 position: absolute;
-padding-top: 72px;
- padding-right: 24px;
- padding-bottom: 24px;
- padding-left: 24px;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%) scale(1);
@@ -930,7 +926,7 @@ left: 16px;
 
 
 .form_list {
-    display: flex;
+   display: block;
     flex-direction: column;
     margin-bottom: 8px;
     color: #2E2F42;
@@ -951,7 +947,6 @@ left: 16px;
     padding-left: 24px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: block;
     margin-bottom: 4px;
     
     
